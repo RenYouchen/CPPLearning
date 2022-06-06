@@ -18,7 +18,12 @@ int fun2(void){
 }
 
 int main(){
-    int n,sw;
+    int n,sw,count,money;
     fun2();
-    scanf("%d",);
+    printf("請輸入餐點代碼：\n\n");
+    scanf("%d",&sw);
+    printf("您要幾份：\n\n");
+    scanf("%d",&count);
+    printf("請輸入您的費用：\n\n");
+    scanf("%d",&money);
 }
